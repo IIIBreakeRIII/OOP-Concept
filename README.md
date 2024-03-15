@@ -64,8 +64,6 @@
 그리고 이러한 `Vehicle`클래스를 상속받는 `MotorBike`클래스는 `isRaceble`이라는 변수가 추가되며, 기존 부모 클래스의 `moveForward`와 `moveBackward`라는 메소드를 **Overriding**하여 재정의한다.  
 때문에, `main`클래스에서는 최종적으로 `MotorBike`클래스에서 재정의한 `moveForward`와 `moveBackward`가 호출되는 것을 확인할 수 있다.
 - 참고
-    - `Override` : 부모 클래스에서 정의된 메소드를 자식 클래스에서 재정의하는 것
-    - `Overload` : 같은 이름의 메소드를 여러개 정의하는 것
     - `super` : 부모 클래스의 생성자를 호출하는 것
 
 #### 2.4. Polymorphism, 다형성
